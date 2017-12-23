@@ -1,6 +1,6 @@
 # Section Writer
 
-Section writer allows for creating windows into a file for writing, much the same as the SectionWriter in the standard library does. These SectionWriters are safe for concurrent writing as long as the windows do not overlap, it is your responsibility to make sure this is the case.
+Section writer allows for creating windows into a file for writing, much the same as the SectionReader in the standard library does. These SectionWriters are safe for concurrent writing as long as the windows do not overlap, it is your responsibility to make sure this is the case.
 
 The use case for me is downloading sections of a file concurrently and writing them to sections of a local file.
 
